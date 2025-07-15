@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Somesh Singh | Portfolio</title>
+    <meta
+      name="description"
+      content="Somesh Singh - Final year Computer Science student portfolio with projects, education, resume and social links."
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: "Inter", sans-serif;
+        margin: 0;
+        background: #f4f6f9;
+        color: #1f2937;
+      }
+      header {
+        background: #1e3a8a;
+        color: white;
+        padding: 2.5rem 1rem;
+        text-align: center;
+      }
+      header img {
+        border-radius: 100px;
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+        border: 4px solid #3b82f6;
+        margin-bottom: 1rem;
+      }
+      header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.3rem;
+      }
+      .status {
+        display: inline-block;
+        background: #3b82f6;
+        padding: 6px 14px;
+        border-radius: 20px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin-top: 0.3rem;
+      }
+      nav {
+        margin-top: 1.2rem;
+      }
+      nav a {
+        color: #93c5fd;
+        text-decoration: none;
+        margin: 0 12px;
+        font-weight: 600;
+      }
+      section {
+        max-width: 1000px;
+        margin: auto;
+        padding: 2rem 1.5rem;
+      }
+      h2 {
+        border-left: 5px solid #2563eb;
+        padding-left: 12px;
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+      }
+      .education,
+      .contact-card,
+      .projects,
+      .resume {
+        background: white;
+        border-radius: 8px;
+        padding: 1.5rem;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        margin-bottom: 2rem;
+      }
+      .contact-card ul,
+      .about-links {
+        list-style: none;
+        padding: 0;
+      }
+      .contact-card li {
+        margin-bottom: 0.6rem;
+      }
+      .project-card {
+        margin-bottom: 1.5rem;
+      }
+      .project-card h4 {
+        color: #2563eb;
+        margin-bottom: 0.5rem;
+      }
+      a {
+        color: #1d4ed8;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .resume a {
+        display: inline-block;
+        margin-top: 1rem;
+        padding: 10px 20px;
+        background-color: #2563eb;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 6px;
+      }
+      footer {
+        text-align: center;
+        padding: 1rem;
+        background: #1f2937;
+        color: #cbd5e1;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="your-photo.jpg" alt="Somesh Singh Photo" />
+      <h1>Somesh Singh</h1>
+      <div class="status">Final Year Student | Open to Work</div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm a final-year B.Tech student in Computer Science at COER University,
+        Roorkee. I specialize in data science, machine learning, and AI
+        development. My interests lie in real-world problem solving through
+        data-driven methods. I'm passionate about continuous learning and open
+        to exciting career opportunities.
+      </p>
+      <ul class="about-links">
+        <li>
+          <a href="https://github.com/someshsingh-7251" target="_blank"
+            >GitHub Profile</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/somesh-singh-2aa796229/"
+            target="_blank"
+            >LinkedIn Profile</a
+          >
+        </li>
+        <li>
+          <a href="https://www.kaggle.com/someshsingh7251" target="_blank"
+            >Kaggle Profile</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/officialsomeshchinkusingh/"
+            target="_blank"
+            >Instagram</a
+          >
+        </li>
+      </ul>
+    </section>
+
+    <section id="education" class="education">
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <strong>B.Tech in Computer Science</strong> – COER University, Roorkee
+          (2023–2026)
+        </li>
+        <li>
+          <strong>Diploma in Computer Science</strong> – BSM College of
+          Engineering and Polytechnic, Roorkee (2019–2022)
+        </li>
+        <li>
+          <strong>Matriculation</strong> – DAV Centenary Public School, Haridwar
+          (2017)
+        </li>
+      </ul>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Featured Projects</h2>
+
+      <div class="project-card">
+        <h4>AI Text Summarizer & Sentiment Analyzer</h4>
+        <p>
+          Summarizes long text and analyzes sentiment using AI. Outputs summary
+          as downloadable TXT. Built with HTML.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h4>Age Calculator</h4>
+        <p>
+          Calculates age in years, months, and days using date input. Built with
+          HTML, CSS, JavaScript.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h4>Fake News Detection</h4>
+        <p>
+          Classifies news as fake or real using NLP and ML (TF-IDF, Logistic
+          Regression, Naive Bayes). Accuracy ~92%.
+        </p>
+      </div>
+    </section>
+
+    <section id="resume" class="resume">
+      <h2>Resume</h2>
+      <p>
+        You can download my latest resume below. It includes details on my
+        education, internships, projects, and skills.
+      </p>
+      <a href="Somesh_nocgpa.pdf" download>📄 Download Resume (PDF)</a>
+    </section>
+
+    <section id="contact" class="contact-card">
+      <h2>Contact</h2>
+      <ul>
+        <li>
+          <strong>Email:</strong>
+          <a href="mailto:somesh572000@gmail.com">somesh572000@gmail.com</a>
+        </li>
+        <li>
+          <strong>Phone:</strong> <a href="tel:+917500381587">7500381587</a>
+        </li>
+        <li><strong>Location:</strong> Roorkee</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>© 2025 Somesh Singh. Built with 💻 + 📊 + ☕</p>
+    </footer>
+  </body>
+</html>
