@@ -51,7 +51,7 @@ A fully responsive and modern personal **portfolio website** to showcase my skil
 
 ## 🌐 Live Demo
 
-🔗 [GitHub Home](https://someshsingh-7251.github.io/Portfolio/)
+🔗 [Portfolio](https://someshsingh-7251.github.io/Portfolio/)
 ---
 
 ## 🧑‍💻 Author
