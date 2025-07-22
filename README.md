@@ -1,3 +1,5 @@
+![Project views](https://komarev.com/ghpvc/?username=someshsingh-7251)
+
 # 🌐 Portfolio Website
 
 A fully responsive and modern personal **portfolio website** to showcase my skills, projects, and experience. Designed with a clean UI, smooth animations, and a mobile-first approach.
